@@ -16,8 +16,7 @@ export default function LoginPage() {
 
     const login =async()=>{
       try{
-        const session = await account.createEmailPasswordSession(email,password)
-        console.log(session)
+        await account.createEmailPasswordSession(email,password)
         navigate('/')
         // window.location.reload()
         toast('Logged IN')
