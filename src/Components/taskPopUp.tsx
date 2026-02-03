@@ -127,7 +127,6 @@ const taskPopUp = ({ open, onClose, todo_id }: taskPopUpProps) => {
             toast.error('Error adding Task')
         }
     }
-    console.log(tasks)
 
     // UI helpers
     const allTasksForTodo = tasks.filter((t: any) => t.todo_id === todo_id)
