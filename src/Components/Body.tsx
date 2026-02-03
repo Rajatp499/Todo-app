@@ -114,7 +114,7 @@ const Body = () => {
                 <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M12 8v8M8 12h8M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 className="text-lg font-semibold">No todos yet</h3>
+            <h3 className="text-lg font-semibold">No todos yet.....</h3>
             <p className="text-sm text-gray-500 mb-4">Create your first todo to get started.</p>
             <button
               onClick={() => setInputPopUp(true)}
